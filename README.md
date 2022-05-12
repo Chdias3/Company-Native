@@ -1,6 +1,7 @@
 # Company-Native :tea:
 Projeto desenvolvido com base no figma, mas não está responsivo. :tea:
 
+ https://chdias3.github.io/Company-Native/
 
 ![image](https://user-images.githubusercontent.com/91853449/168164832-a7f853d2-b7df-4244-9d1c-b88490871a54.png)
 
