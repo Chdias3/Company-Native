@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Native</title>
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/functions.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/about.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Marck+Script&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header id="header">
+      <div class="container">
+        <a class="logo" href="#"
+          ><img class="imgLogo" src="img/logo.png" alt="Logo"
+        /></a>
+
+        <div class="search">
+          <form action="">
+            <div class="container">
+              <input
+                type="text"
+                placeholder="Pesquise aqui!!!"
+                autocomplete="off"
+              />
+              <button class="buttonSearch">
+                <img
+                  class="imgSearch"
+                  src="img/search.png"
+                  alt="Campo de busca"
+                />
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <!-- Menu ------------------->
+    <div>
+      <nav class="container">
+        <div class="menu">
+          <ul class="grid">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="about.html">Sobre</a></li>
+            <li><a href="#Product">Produtos</a></li>
+            <li><a href="#Contact">Contato</a></li>
+            <li><a href="#Suice">Sucos Naturais</a></li>
+            <li><a href="#Teas">Chás Especiais</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <main id="inserts">
+      <div class="divider-1"></div>
+
+      <!-- Carousel de ofertas   -->
+      <section id="home">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="item">
+              <div class="numbertext">1 / 3</div>
+              <img class="box-img" src="img/teas.png" />
+              <img
+                class="promotion1"
+                src="img/Vector1.png"
+                alt="Vetor de promoção"
+              />
+              <img
+                class="promotion2"
+                src="img/Vector2.png"
+                alt="Vetor de promoção"
+              />
+              <img
+                class="promotion3"
+                src="img/Vector3.png"
+                alt="Vetor de promoção"
+              />
+              <img
+                class="promotion4"
+                src="img/promotion1.png"
+                alt="Vetor de promoção"
+              />
+              <img
+                class="promotion5"
+                src="img/discount.png"
+                alt="Vetor de promoção"
+              />
+              <p class="marckDescrip">Chá muito mais natural...</p>
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="item">
+              <div class="numbertext">2 / 3</div>
+              <img class="box-img" src="img/chaMate.png" />
+            </div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="item">
+              <div class="numbertext">3 / 3</div>
+              <img class="box-img" src="img/ibiscoHoney.png" />
+            </div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+          <a class="next" onclick="plusSlides(1)">&#10095</a>
+        </div>
+        <br />
+
+        <div class="boxDot" style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <p class="number1">1</p>
+        <p class="number2">2</p>
+        <p class="number3">3</p>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- Sobre e detalhes dos produtos -------------- -->
+      <section class="container">
+        <!-- Sobre -->
+
+        <div class="informationAbout">
+          <div class="headerAbout">Sobre nós</div>
+          <div class="textAbout" onclick="moreRedA()">
+            <p onclick="moreRedC()">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              dolor veritatis veniam sint saepe aperiam amet quisquam ut magni
+              nostrum. Cupiditate vero accusamus illum in excepturi delectus,
+              obcaecati aspernatur saepe.Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Sunt dolor veritatis veniam sint saepe aperiam
+              amet quisquam ut magni nostrum. Cupiditate vero accusamus illum in
+              excepturi delectus, obcaecati aspernatur saepe.
+              <br />
+              <br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              dolor veritatis veniam sint saepe aperiam amet quisquam ut magni
+              nostrum. Cupiditate vero accusamus illum in excepturi delectus,
+              obcaecati aspernatur saepe.Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Sunt dolor veritatis veniam sint saepe aperiam
+              amet quisquam ut magni nostrum. Cupiditate vero accusamus illum in
+              excepturi delectus, obcaecati aspernatur saepe. Lorem ipsum dolor
+              sit amet consectetur adipisicing elit. Sunt dolor veritatis veniam
+              sint saepe aperiam amet quisquam ut magni nostrum. Cupiditate vero
+              accusamus illum in excepturi delectus, obcaecati aspernatur
+              <span id="stitches">...<span class="cor">ver mais</span></span>
+              <span id="More">
+                <br /><br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                dolor veritatis veniam sint saepe aperiam amet quisquam ut magni
+                nostrum. Cupiditate vero accusamus illum in excepturi delectus,
+                obcaecati aspernatur saepe.Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Sunt dolor veritatis veniam sint
+                saepe aperiam amet quisquam ut magni nostrum. Cupiditate vero
+                accusamus illum in excepturi delectus, obcaecati aspernatur
+                saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sunt dolor veritatis veniam sint saepe aperiam amet quisquam ut
+                magni nostrum. Cupiditate vero accusamus illum in excepturi
+                delectus, obcaecati aspernatur saepe
+                <br /><br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                dolor veritatis veniam sint saepe aperiam amet quisquam ut magni
+                nostrum. Cupiditate vero accusamus illum in excepturi delectus,
+                obcaecati aspernatur saepe.Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Sunt dolor veritatis veniam sint
+                saepe aperiam amet quisquam ut magni nostrum. Cupiditate vero
+                accusamus illum in excepturi delectus, obcaecati aspernatur
+                saepe.
+              </span>
+            </p>
+            <a id="see"></a>
+          </div>
+        </div>
+
+        <div class="details" id="details" onclick="moreRedE()">
+          <div class="headerAbout">Detalhes dos nossos produtos</div>
+          <div class="textDetails">
+            <p onclick="moreRedD()">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              dolor veritatis veniam sint saepe aperiam amet quisquam ut magni
+              nostrum. Cupiditate vero accusamus illum in excepturi delectus,
+              obcaecati aspernatur saepe.Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Sunt dolor veritatis veniam sint saepe aperiam
+              amet quisquam ut magni nostrum. Cupiditate vero accusamus illum in
+              excepturi delectus, obcaecati aspernatur saepe.
+              <br />
+              <br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              dolor veritatis veniam sint saepe aperiam amet quisquam ut magni
+              nostrum. Cupiditate vero accusamus illum in excepturi delectus,
+              obcaecati aspernatur saepe.Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Sunt dolor veritatis veniam sint saepe aperiam
+              amet quisquam ut magni nostrum. Cupiditate vero accusamus illum in
+              excepturi delectus, obcaecati aspernatur saepe. Lorem ipsum dolor
+              sit amet consectetur adipisicing elit. Sunt dolor veritatis veniam
+              sint saepe aperiam amet quisquam ut magni nostrum. Cupiditate vero
+              accusamus illum in excepturi delectus, obcaecati aspernatur saepe
+              <span id="stitches2">...<span class="cor">ver mais</span></span>
+              <span id="More2">
+                <br /><br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                dolor veritatis veniam sint saepe aperiam amet quisquam ut magni
+                nostrum. Cupiditate vero accusamus illum in excepturi delectus,
+                obcaecati aspernatur saepe.Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Sunt dolor veritatis veniam sint
+                saepe aperiam amet quisquam ut magni nostrum. Cupiditate vero
+                accusamus illum in excepturi delectus, obcaecati aspernatur
+                saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sunt dolor veritatis veniam sint saepe aperiam amet quisquam ut
+                magni nostrum. Cupiditate vero accusamus illum in excepturi
+                delectus, obcaecati aspernatur saepe
+                <br /><br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                dolor veritatis veniam sint saepe aperiam amet quisquam ut magni
+                nostrum. Cupiditate vero accusamus illum in excepturi delectus,
+                obcaecati aspernatur saepe.Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Sunt dolor veritatis veniam sint
+                saepe aperiam amet quisquam ut magni nostrum. Cupiditate vero
+                accusamus illum in excepturi delectus, obcaecati aspernatur
+                saepe.
+              </span>
+            </p>
+            <a id="see2"></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footerM">
+      <div>
+        <a class="logo" href="#"
+          ><img class="imgLogo" src="img/logoTwo.png" alt="Logo"
+        /></a>
+      </div>
+
+      <div class="contact">
+        <ul class="contactNative">
+          <li>
+            <span data-tooltip="Celular"
+              ><img class="cont" src="img/phone.png" alt="Celular" /></span
+            >(13) 99999-0000
+          </li>
+          <li>
+            <span data-tooltip="Whatsapp"
+              ><img class="cont" src="img/whatsapp.png" alt="Whatsapp"
+            /></span>
+            (13) 99999-1111
+          </li>
+          <li>
+            <span data-tooltip="Localização"
+              ><img class="cont" src="img/map-pin.png" alt="Localização"
+            /></span>
+            Av. Taváres, 678.
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p class="subtitle">
+          ©2022 Company Native. Todos os direitos reservados.
+        </p>
+      </div>
+
+      <!-- &bull; é um caracter especial para gerar uma bolinha -->
+      <div class="information">
+        <h3>Informações úteis:</h3>
+        <ul class="info">
+          <a href="#"><li>&bull; Sobre</li></a>
+          <a href="#"> <li>&bull; Promoções</li></a>
+          <a href="#"><li>&bull; Consultar produto</li></a>
+          <a href="#"><li>&bull; Nosso blog</li></a>
+        </ul>
+      </div>
+      <div class="shop">
+        <h3 class="shopTitle">Compras:</h3>
+        <ul class="shopping">
+          <a href="#"><li>&bull; Meus pedidos</li></a>
+          <a href="#"> <li>&bull; Minha conta</li></a>
+        </ul>
+      </div>
+
+      <!-- seta para cima -->
+      <abbr title="Mover para cima">
+        <a href="#" class="back-to-top">
+          <img class="moveSet" src="img/seta.png" alt="Icone de seta" /> </a
+      ></abbr>
+    </footer>
+
+    <!-- swiper -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- main.js -->
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/modal.js"></script>
+    <script type="text/javascript" src="js/about.js"></script>
+  </body>
+</html>
